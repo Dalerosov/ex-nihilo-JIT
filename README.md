@@ -6,7 +6,7 @@ A JIT compiler and runtime written in C++, targeting x86-64 on Windows.
 
 ## What this is
 
-MyRuntime is an experiment in building a JIT compiler and runtime from scratch: take a simple intermediate representation, generate x86-64 machine code for it directly (no LLVM, no assembler library), and execute it. It's inspired by how production runtimes like the JVM and .NET CLR work under the hood, scaled down to something one person can build and understand end to end.
+Ex nihilo JIT is an experiment in building a JIT compiler and runtime from scratch: take a simple intermediate representation, generate x86-64 machine code for it directly (no LLVM, no assembler library), and execute it. It's inspired by how production runtimes like the JVM and .NET CLR work under the hood, scaled down to something one person can build and understand end to end.
 
 ## How it works
 
