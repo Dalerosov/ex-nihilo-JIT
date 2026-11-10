@@ -1,3 +1,6 @@
+;Counts all prime numbers from 0 to 10000000
+
+
 fn is_prime($n : u64) -> u64
     $small : u64 = lt $n, 2
     jnz $small, no
