@@ -1,4 +1,4 @@
-# MyRuntime
+# Ex nihilo JIT
 
 A JIT compiler and runtime written in C++, targeting x86-64 on Windows.
 
