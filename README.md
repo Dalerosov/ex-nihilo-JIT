@@ -89,7 +89,7 @@ fn main() -> u64
 
 ## Running
 
-The program currently loads its IL from `D:\mylang.test.sil`. The path is hardcoded; change it in the source to point at your own file.
+The program currently loads its IL from `C:/count_primes.sil`. The path is hardcoded; change it in the source to point at your own file.
 
 
 ## Roadmap
