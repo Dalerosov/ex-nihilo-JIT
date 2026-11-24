@@ -28,6 +28,7 @@ Ex-nihilo is an experiment in building a JIT compiler and runtime from scratch: 
 
 ## IL example
 
+```
 fn print_factors($n : u64) -> u64
     $small : u64 = lt $n, 2
     jnz $small, done
@@ -56,7 +57,8 @@ fn main() -> u64
     $n : u64 = 360
     $r : u64 = call print_factors, $n
     ret $r
-    
+
+```
 ## Status
 
 | Area | State |
