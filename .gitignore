@@ -66,3 +66,5 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+/.vs/Ex_nihilo
+/Ex_nihilo.vcxproj.user
