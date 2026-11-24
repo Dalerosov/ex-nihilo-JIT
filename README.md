@@ -70,7 +70,7 @@ fn main() -> u64
 | Register allocation | Working, basic |
 | Per-function call counters | Working |
 | Hexdump of emitted code | Working |
-| Arrays | Not yet (planned heap-only) |
+| Arrays | Not yet |
 | Pointers | Not yet |
 | Instruction coverage | Minimal |
 | Optimization passes | None yet |
