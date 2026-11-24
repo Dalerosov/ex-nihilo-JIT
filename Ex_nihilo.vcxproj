@@ -130,24 +130,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="emitter.cpp" />
-    <ClCompile Include="Ex_nihilo.cpp" />
+    <ClCompile Include="src\emitter.cpp" />
+    <ClCompile Include="src\Ex_nihilo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ILDoc.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="compiler.hpp" />
-    <ClInclude Include="emitter.hpp" />
-    <ClInclude Include="hosted_functions.hpp" />
-    <ClInclude Include="il.hpp" />
-    <ClInclude Include="loader.hpp" />
-    <ClInclude Include="parser2.hpp" />
-    <ClInclude Include="pch.hpp" />
-    <ClInclude Include="profiler.hpp" />
-    <ClInclude Include="registers.hpp" />
-    <ClInclude Include="runtime.hpp" />
-    <ClInclude Include="types.hpp" />
+    <ClInclude Include="src\compiler.hpp" />
+    <ClInclude Include="src\emitter.hpp" />
+    <ClInclude Include="src\hosted_functions.hpp" />
+    <ClInclude Include="src\il.hpp" />
+    <ClInclude Include="src\loader.hpp" />
+    <ClInclude Include="src\parser2.hpp" />
+    <ClInclude Include="src\pch.hpp" />
+    <ClInclude Include="src\profiler.hpp" />
+    <ClInclude Include="src\registers.hpp" />
+    <ClInclude Include="src\runtime.hpp" />
+    <ClInclude Include="src\types.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

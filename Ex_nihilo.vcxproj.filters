@@ -24,10 +24,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex_nihilo.cpp">
+    <ClCompile Include="src\Ex_nihilo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="emitter.cpp">
+    <ClCompile Include="src\emitter.cpp">
       <Filter>Source Files\jit</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,38 +35,38 @@
     <None Include="ILDoc.md" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="il.hpp">
+    <ClInclude Include="src\compiler.hpp">
+      <Filter>Source Files\jit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\emitter.hpp">
+      <Filter>Source Files\jit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hosted_functions.hpp">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="emitter.hpp">
-      <Filter>Source Files\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="compiler.hpp">
-      <Filter>Source Files\jit</Filter>
-    </ClInclude>
-    <ClInclude Include="types.hpp">
+    <ClInclude Include="src\il.hpp">
       <Filter>Source Files\core</Filter>
     </ClInclude>
-    <ClInclude Include="pch.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="runtime.hpp">
-      <Filter>Source Files\runtime</Filter>
-    </ClInclude>
-    <ClInclude Include="registers.hpp">
+    <ClInclude Include="src\loader.hpp">
       <Filter>Source Files\jit</Filter>
     </ClInclude>
-    <ClInclude Include="loader.hpp">
-      <Filter>Source Files\runtime</Filter>
-    </ClInclude>
-    <ClInclude Include="parser2.hpp">
-      <Filter>Source Files\runtime</Filter>
-    </ClInclude>
-    <ClInclude Include="profiler.hpp">
+    <ClInclude Include="src\parser2.hpp">
       <Filter>Source Files\jit</Filter>
     </ClInclude>
-    <ClInclude Include="hosted_functions.hpp">
+    <ClInclude Include="src\pch.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\profiler.hpp">
       <Filter>Source Files\jit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\runtime.hpp">
+      <Filter>Source Files\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\types.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\registers.hpp">
+      <Filter>Source Files\core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
