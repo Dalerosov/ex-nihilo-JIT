@@ -1,0 +1,23 @@
+;Counts all prime numbers from 0 to 10000000
+
+
+fn is_prime($n : u64) -> u64
+    $small : u64 = lt $n, 2
+    jnz $small, no
+    $d : u64 = 2
+    loop:
+    $sq : u64 = mul $d, $d
+    $over : u64 = gt $sq, $n
+    jnz $over, yes
+    $r : u64 = rem $n, $d
+    jz $r, no
+    $d : u64 = add $d, 1
+    jmp loop
+    yes:
+    $one : u64 = 1
+    ret $one
+    no:
+    $zero : u64 = 0
+    ret $zero
+fn main() -> u64
+    $n : u64 = 2
